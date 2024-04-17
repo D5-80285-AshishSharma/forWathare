@@ -6,7 +6,7 @@ const SummaryTable = () => {
   const [data,setData] = useState();
   const getData = async()=>
   {
-    axios.get(`http://localhost:4000/machine/data`, {}).then((response) => {
+    axios.get(`http://localhost:8080/machine`, {}).then((response) => {
           
           setData(response.data.data);
           console.log(response); 

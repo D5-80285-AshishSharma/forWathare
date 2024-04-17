@@ -20,7 +20,7 @@ const Chart = () => {
 
   //console.log(data);
     var fetchData = () => {
-      axios.get(`http://localhost:4000/machine/2024-01-21%2014%3A59%3A59/2024-01-21%2015%3A01%3A38`, {}).then((response) => {
+      axios.get(`http://localhost:8080/machine/`, {}).then((response) => {
           // Assuming `setCharts` is a function to set the data for your charts
           setCharts(response.data.data);
           console.log(response.data); // Logging the data to console

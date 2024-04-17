@@ -10,21 +10,10 @@ import './App.css';
 const Chart = () => {
 
   var [charts, setCharts] = useState([]);
-  // useEffect(() => {
-  //     fetchData();
-  // }, [charts])
+  
 
   console.log(data);
-  //   var fetchData = () => {
-  //     axios.get(`C:\\Users\\abhi\\Downloads\\sample-data.json`, {}).then((response) => {
-  //         // Assuming `setCharts` is a function to set the data for your charts
-  //         setCharts(response.data);
-  //         console.log(response.data); // Logging the data to console
-  //         // Further processing of the data can be done here
-  //     }).catch((error) => {
-  //         console.error('Error fetching data:', error);
-  //     });
-  // }
+ 
 
   const slicedData = data;
   const histogramData = {
@@ -34,7 +23,6 @@ const Chart = () => {
       {
         label: 'Machine Status',
          data: slicedData.map(() => 1),
-        // data: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
         backgroundColor: (context) => {
           const value = slicedData[context.dataIndex].machine_status;
           return value === 0

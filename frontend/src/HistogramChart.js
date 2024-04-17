@@ -36,7 +36,6 @@ const HistogramChart = ({ data }) => {
       }
     });
 
-    // Cleanup function to destroy the chart instance when the component unmounts
     return () => {
       chartInstance.destroy();
     };
