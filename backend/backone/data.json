@@ -1,0 +1,22 @@
+[
+    {
+        "ts": "2024-01-21T15:00:00Z",
+        "machine_status": 1,
+        "vibration": 529
+    },
+    {
+        "ts": "2024-01-21T15:00:01Z",
+        "machine_status": 1,
+        "vibration": 536
+    },
+    {
+        "ts": "2024-01-21T15:00:02Z",
+        "machine_status": 1,
+        "vibration": 536
+    },
+    {
+        "ts": "2024-01-21T15:00:03Z",
+        "machine_status": 1,
+        "vibration": 544
+    }
+]
