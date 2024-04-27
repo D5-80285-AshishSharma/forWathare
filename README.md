@@ -1,1 +1,2 @@
 The bar graph(stacked ) in GraphComplete folder takes data from mysql database (server.js exposes the endpoints) and displays using the react app(frontend folder).
+In The new "Frontend" ,the canvas (html) container broke on  firefox,but worked fine on chrome(if you want your presentation layer to be in firefox,use a previous version of the component such as "HorizontalStackedBarChart copy 4" which is in the same folder)
